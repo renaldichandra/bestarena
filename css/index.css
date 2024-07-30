@@ -1,0 +1,602 @@
+@font-face {
+    font-family: 'LEMON MILK MEDIUM';
+    src: url('font/lemon_milk/LEMONMILK-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+.container{
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 50%;
+    margin-left: 60px;
+}
+
+.nav-itemq{
+    display: inline-block;
+}
+
+.navbar{
+    background-color: #121212;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar-nav {
+    margin-right: 5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar-toggler{
+    color: #ebebeb;
+}
+
+.nav-itemq{
+    color: #ebebeb;
+}
+
+.nav-link{
+    color: #ebebeb;
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.navbar :hover{
+    color: #E50914;
+}
+
+.home1utama{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 15px;
+    align-content: center;
+}
+
+.home1kiri{
+    width: 49%;
+    display: inline-block;
+	vertical-align: top;
+}
+
+.home1kanan{
+    width: 49%;
+    margin-left: 10px;
+    display: inline-block;
+	vertical-align: top;
+}
+
+.home1kiri img{
+    margin-bottom: 10px;
+}
+
+.home1kanan img{
+    margin-bottom: 10px;
+}
+
+
+.home2{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.home2kiri{
+    width: 79%;
+    margin-left: 15px;
+    margin-top: 10px;
+    display: inline-block;
+	vertical-align: top;
+}
+
+.home2kirijudul{
+    color: #ebebeb;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.home2kiriisi{
+    width: 31%;
+    color: #ebebeb;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.home2kiriisinonton{
+    width: 100%;
+    color: #ebebeb;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.jam{
+    margin-top: 5px;
+}
+
+.home2kiriisi p{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.home2kiriisi img {
+    margin-bottom: 10px;
+}
+
+.home2kirilink{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.home2kirilink .hover{
+    display: none;
+    position: absolute;
+    left: 35%;
+    z-index: 5;
+}
+
+.home2kirilink:hover .hover{
+    display: inline;
+}
+
+.home2kanan1{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 10px;
+    display: inline-block;
+	vertical-align: top;
+}
+
+.home2kanan2{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 10px;
+    display: inline-block;
+	vertical-align: top;
+}
+
+.home2kananutama{
+    width: 18%;
+    height: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.homekananutama{
+    width: 18%;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Responsive Laptop */
+@media only screen and (max-width: 1024px) 
+ {
+
+    .logo {
+        display: inline-block;
+        margin-left: 400px;
+    }
+
+    .nav-itemq{
+        display: inline-block;
+    }
+
+    .navbar-nav {
+        display: inline-block;
+        margin-left: 100px;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .nav-link{
+        margin-right: 20px;
+        margin-left: 40px;
+        font-size: 18px;
+        display: inline-block;
+        color: #ebebeb;
+    }
+
+    .home1kiri{
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .home1kanan{
+        width: 45%;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .home1kiri img{
+        margin-bottom: 10px;
+    }
+    
+    .home1kanan img{
+        margin-bottom: 10px;
+    }
+
+    .home2kiri{
+        width: 75%;
+        margin-top: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .home2kiriisi{
+        width: 45%;
+        color: #ebebeb;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        display: inline-block;
+        text-align: center;
+        font-family: 'DM Sans', sans-serif;
+    }
+    .home2kananutama{
+        width: 18%;
+        height: 20%;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .home2kanan1{
+        width: 40%;
+        margin-top: 30px;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .home2kanan2{
+        width: 40%;
+        margin-top: 30px;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+ }
+
+  /* Responsive Tablet/Ipad */
+  @media only screen and (max-width: 768px)
+ {
+    .logo {
+        display: inline-block;
+        margin-left: 330px;
+    }
+
+    .nav-itemq{
+        display: inline-block;
+    }
+
+    .navbar-nav {
+        display: inline-block;
+        margin-left: 120px;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .nav-link{
+        padding-right: 25%;
+        margin-left: 10px;
+        font-size: 18px;
+        display: inline-block;
+        color: #ebebeb;
+    }
+    .home1kiri{
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .home1kanan{
+        width: 45%;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .home1kiri img{
+        margin-bottom: 10px;
+    }
+    
+    .home1kanan img{
+        margin-bottom: 10px;
+    }
+
+    .home2kiri{
+        width: 72%;
+        font-size: 16px;
+        margin-top: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .home2kiriisi{
+        width: 47%;
+        color: #ebebeb;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+        text-align: center;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .home2kananutama{
+        width: 18%;
+        height: 20%;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .home2kanan1{
+        width: 40%;
+        margin-top: 30px;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .home2kanan2{
+        width: 40%;
+        margin-top: 30px;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+ }
+
+    /* Responsive Smartphone */
+  @media only screen and (max-width: 480px)
+ {
+    .logo {
+        width: 200%;
+        display: inline-block;
+        margin-left: 180px;
+    }
+
+    .nav-itemq{
+        display: inline-block;
+    }
+
+  
+    .navbar-nav {
+        font-size: 10px;
+        margin-left: 30px;
+        display: inline-block; 
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .nav-link{
+        padding-right: 25%;
+        margin-left: 10px;
+        font-size: 10px;
+        display: inline-block;
+        color: #ebebeb;
+    }
+
+    .home1kiri{
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .home1kanan{
+        width: 45%;
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .home1kiri img{
+        margin-bottom: 10px;
+    }
+    
+    .home1kanan img{
+        margin-bottom: 10px;
+    }
+
+    .home2kiri{
+        width: 65%;
+        margin-left: 20px;
+        display: inline-block;
+        vertical-align: top;
+        
+    }
+
+    .home2kirijudul{
+        color: #ebebeb;
+        font-size: 12px;
+        margin-bottom: 10px;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+
+    .home2kiriisi{
+        width: 45%;
+        color: #ebebeb;
+        border-radius: 10px;
+        font-size: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+        text-align: center;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .home2kiriisi p{
+        display: inline-block;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .jam{
+        font-size: 10px;
+    }
+
+    .home2kananutama{
+        width: 22%;
+        height: 20%;
+        margin-left: 5px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .home2kanan1{
+        width: 35%;
+        margin-top: 30px;
+        margin-left: 5px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .home2kanan2{
+        width: 35%;
+        margin-top: 30px;
+        margin-left: 5px;
+        display: inline-block;
+        vertical-align: top;
+    }
+ }
+
+
+  @media only screen and (max-width: 382px)
+ {
+    .logo {
+        width: 200%;
+        display: inline-block;
+        margin-left: 160px;
+    }
+
+    .nav-itemq{
+        display: inline-block;
+    }
+
+  
+    .navbar-nav {
+        font-size: 10px;
+        margin-left: 35px;
+        display: inline-block; 
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    .nav-link{
+        margin-left: 5px;
+        font-size: 8px;
+        display: inline-block;
+        color: #ebebeb;
+    }
+
+       .home1kiri{
+           width: 45%;
+           display: inline-block;
+           vertical-align: top;
+       }
+       
+       .home1kanan{
+           width: 45%;
+           margin-left: 10px;
+           display: inline-block;
+           vertical-align: top;
+       }
+       
+       .home1kiri img{
+           margin-bottom: 10px;
+       }
+       
+       .home1kanan img{
+           margin-bottom: 10px;
+       }
+   
+       .home2kiri{
+           width: 65%;
+           margin-left: 20px;
+           display: inline-block;
+           vertical-align: top;
+           
+       }
+   
+       .home2kirijudul{
+           color: #ebebeb;
+           font-size: 12px;
+           margin-bottom: 10px;
+           font-family: 'DM Sans', sans-serif;
+       }
+   
+   
+       .home2kiriisi{
+           width: 40%;
+           color: #ebebeb;
+           border-radius: 10px;
+           font-size: 12px;
+           margin-right: 15px;
+           margin-bottom: 10px;
+           display: inline-block;
+           text-align: center;
+           font-family: 'DM Sans', sans-serif;
+       }
+   
+       .home2kiriisi p{
+           display: inline-block;
+           font-size: 10px;
+           margin-top: 5px;
+       }
+   
+       .jam{
+           font-size: 10px;
+       }
+   
+       .home2kananutama{
+           width: 22%;
+           height: 20%;
+           margin-left: 5px;
+           display: inline-block;
+           vertical-align: top;
+       }
+   
+       .home2kanan1{
+           width: 35%;
+           margin-top: 30px;
+           margin-left: 5px;
+           display: inline-block;
+           vertical-align: top;
+       }
+   
+       .home2kanan2{
+           width: 35%;
+           margin-top: 30px;
+           margin-left: 5px;
+           display: inline-block;
+           vertical-align: top;
+       }
+
+       .home2kiriisinonton{
+        height: 360px;
+        color: #ebebeb;
+        font-size: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+        text-align: center;
+        font-family: 'DM Sans', sans-serif;
+    }
+ }
